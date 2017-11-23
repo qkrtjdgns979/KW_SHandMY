@@ -1,52 +1,34 @@
 # KW_SHandMY
 ReadMe
-1.Hex.cs
-Hex타일의 위치정보를 저장하는 클래스.
-Hex타일을 클릭시, OnMouseDown 콜백함수가 실행되어, Object가 해당 Hex로 이동.
-Data Latency문제를 해결하기위해, RPC를 사용하여 Client들에게 움직이고자 하는 Hex타일의 정보 송신.
 
-2.HexManager.cs
-해당 Scene에서 모든 Manager Class를 관리하는 클래스.
-Master Client에서만 실행하는 클래스.
-게임을 시작하는데 필요한 기본적인 셋팅을 해주는 함수를 실행.
-턴을 관리하는 Coroutine 함수를 실행.
+목표
+	Network를 기반으로 한 Unity Tool을 이용한 게임을 구현한다. 
+  본 프로젝트	의 목적은 Network 기반 게임개발에 우선순위를 두고 있기 때문에 Unity에	서 지원하는 Photon Unity Network의 Server를 이용하여 게임에   사용될 Network Client를 구축하고 Delay의 발생여부와 개선된 사항을 확인할 수 있는 턴제 대전 게임을 구축하는데 그 목적이 있다. 
+  Network의 Data Latency를 줄이기 위해 고안한 방법은 현재의 위치 정보를 상대방에게 주기적으로 송수신하는 방법이 아닌 Object가 이동할 최종 도착점 
+  정보를 수신자 측에 전송하여 자신이 이동할 경로에 대한 위치 정보를 생략하는 방법을 사용하여 발생하는 Delay를 줄이는 방법을 사용한다.
+  
+개발 내용
+	연구의 필요성에 따라 프로젝트를 진행하기 위해 Unity Tool을 사용한 Network 기반 턴제 대전 게임을 개발한다. 
+  게임 내 Object의 움직임이 Delay를 구분하는데 가장 핵심이 되는 포인트이기 때문에 Hexagon Map을 구성하여 Turn방식을 
+  사용하는 방향으로 개발을 진행한다. 
+  캐릭터가 움직이	는 것에 있어서 일정한 주기가 있어야 확인을 할 수 있기 때문에 최단 경로 알고리즘 중 게임개발에 
+  가장 많이 사용되는 A* Algorithm을 사용하여 구현한다. 
+  같은 움직임에 대한 Delay를 측정하는 것이 가장 정확하기 때문에 일정한 형식을 가지고 움직일 수 있는 타일 기반의
+  Hexagon Map을 제작	한다. 
+  최단경로를 사용하여 움직이기 때문에 Object별 움직임의 범위를 설정하여 송신자가 수신자에게 자신의 도착점 정보만을 
+  넘겨주는 방식을 사용	할 때와 자신의 위치정보를 상대방에게 지속적으로 전송할 때 움직이는 방	식의 차이를 비교하여 분석한다.
+  
+  
+주의사항 
+ 포톤유니티 네트워크를 이용하였기 때문에 네트워크가 연결되어있어야 한다.
+ 게임이 진행되기 위해서는 2명의 Client가 필요하다.
 
-3.MapManager.cs
-Hexagon Map에 대한 정보를 관리하는 클래스.
-Hexagon Map을 생성하는 함수가 있으며, Hexagon Map생성시 Hex Class에 해당 Hexagon 정보 입력.
-Object 클릭시, Object의 이동반경을 표현해주는 함수 구현.
-A*알고리즘을 사용하여 최단경로를 구하는 함수 구현.
-
-3.PlayerManager.cs
-Player와 Player의 Turn을 관리하는 클래스.
-Player를 생성하는 함수 구현.
-MapManager Class의 최단경로를 구하는 함수를 이용하여 Player를 Move하는 함수 구현.
-Player에게 Turn을 주고, Player가 움직임을 마치면 Turn Over하는 함수 구현.
-RPC를 사용하여 해당 Turn의 Client에게 Turn을 제공하는 함수 구현.
-
-4.PhotonInit.cs
-Lobby Scene에서 Photon Network에 접속하는 클래스.
-Room Make, Room Join, Room Search 를 구현.
-
-5.RoomManager.cs
-Room Scene을 관리하는 클래스.
-RPC를 사용하여 채팅창 구현.
-게임시작 구현.
-
-6.DataTransfer.cs
-Client Object의 Data를 송수신하는 클래스.
-Player가 현재 위치한 Hex 타일의 정보를 송수신.
-
-7.PlayerBase.cs
-Player의 상태를 관리하는 클래스.
-PlayerManager의 Player Move하는 함수를 이용하여, Map에서 Player를 움직이게 하는 함수 구현.
-Hex클래스에서 송신한 Hex타일의 정보를 수신하여, Player의 Move 구현.
-
-8.Shoot.cs
-Object의 발사를 관리하는 클래스.
-RPC를 사용하여 모든 Client에서 총알이 발사되도록 구현.
-
-9.UserPlayer.cs
-PlayerBase를 상속받은 클래스.
-본인 Object를 클릭시, MapManager클래스를 이용하여 활동반경 표현.
-상대방 Object를 클릭시, Shoot클래스에 총알을 발사하도록 명령.
+Credit 
+ 전민영 , 박성훈
+ 
+ Reference
+a* algorithm : http://homepages.abdn.ac.uk/f.guerin/pages/teaching/CS1013/practicals/aStarTutorial.htm	
+Hexagon map : https://www.redblobgames.com/grids/hexagons/
+Photon Unity Network & Unity : 
+절대강좌! 유니티 5 이재현 저, 위키북스
+https://www.photonengine.com/ko-KR/Photon
