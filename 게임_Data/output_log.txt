@@ -1,0 +1,122 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6081 MB
+    Driver:   22.21.13.8264
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.019 seconds
+OnLevelWasLoaded was found on PhotonHandler
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 380)
+
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.758451 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 39f0 -> priority: 1 
+  Thread -> id: 12dc -> priority: 1 
+  Thread -> id: 34ec -> priority: 1 
+  Thread -> id: 134c -> priority: 1 
+entered lobby
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Operation failed: OperationResponse 225: ReturnCode: 32760 (No match found). Parameters: {}
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+PhotonRandomRoom Join Failed
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.987196 ms
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 1911.
+Total: 0.700536 ms (FindLiveObjects: 0.104661 ms CreateObjectMapping: 0.044854 ms MarkObjects: 0.510906 ms  DeleteObjects: 0.040113 ms)
+
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6081 MB
+    Driver:   22.21.13.8264
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\JMY\Desktop\자소서와포트폴리오\졸작\게임_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.022 seconds
+OnLevelWasLoaded was found on PhotonHandler
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 380)
+
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.231499 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 2d2c -> priority: 1 
+  Thread -> id: 3d50 -> priority: 1 
+  Thread -> id: 14c8 -> priority: 1 
+  Thread -> id: 3644 -> priority: 1 
+entered lobby
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.361917 ms
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 1917.
+Total: 0.745390 ms (FindLiveObjects: 0.104296 ms CreateObjectMapping: 0.032091 ms MarkObjects: 0.554667 ms  DeleteObjects: 0.053971 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.042963 ms
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 816.
+Total: 0.366131 ms (FindLiveObjects: 0.021515 ms CreateObjectMapping: 0.021880 ms MarkObjects: 0.288820 ms  DeleteObjects: 0.033549 ms)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.910223 ms
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 816.
+Total: 0.419008 ms (FindLiveObjects: 0.024797 ms CreateObjectMapping: 0.030632 ms MarkObjects: 0.334040 ms  DeleteObjects: 0.029173 ms)
+
